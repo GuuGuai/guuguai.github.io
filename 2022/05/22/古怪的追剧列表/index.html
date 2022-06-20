@@ -1910,7 +1910,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: false,
     cdn: {"js":{"app":"/js/app.3690b000.js","parallax":"/js/plugins/parallax.8bf0ab10.js","rightMenu":"/js/plugins/rightMenu.1d2dd3e0.js","rightMenus":"/js/plugins/rightMenus.48fa1716.js","sites":"/js/plugins/tags/sites.76bf19b8.js","friends":"/js/plugins/tags/friends.f372da57.js","contributors":"/js/plugins/tags/contributors.aec80453.js","search":"/js/search/hexo.06d40311.js"},"css":{"style":"/css/style.2968ac67.css"}},
     default: {"avatar":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/avatar/round/3442075.svg","link":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/cover/76b86c0226ffd.svg","image":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1655705091649),
+    lastupdate: new Date(1655715329488),
     sidebar: {
       for_page: ["blogger","category","tagcloud","donate"],
       for_post: ["toc"],
@@ -1929,7 +1929,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       message: {"enable":true,"css":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/libs/izitoast/dist/css/iziToast.min.css","js":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/libs/izitoast/dist/js/iziToast.min.js","icon":{"default":"fa-solid fa-info-circle light-blue","quection":"fa-solid fa-question-circle light-blue"},"time":{"default":5000,"quection":20000},"position":"topRight","transitionIn":"bounceInLeft","transitionOut":"fadeOutRight","titleColor":"var(--color-text)","messageColor":"var(--color-text)","backgroundColor":"var(--color-card)","zindex":2147483647,"copyright":{"enable":true,"title":"知识共享许可协议","message":"请遵守 CC BY-NC-SA 4.0 协议。","icon":"far fa-copyright light-blue"},"aplayer":{"enable":true,"play":"fa-solid fa-play","pause":"fa-solid fa-pause"},"rightmenu":{"enable":true,"notice":true}},
       fancybox: {"css":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/libs/@fancyapps/ui/dist/fancybox.css","js":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/libs/@fancyapps/ui/dist/fancybox.umd.js"},
       aplayer: {
-        id: 534065323,
+        id: 7497952781,
         enable:true
       },
       rightmenu: {
@@ -2712,7 +2712,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           
         
           
-            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2022-06-20T14:04:52+08:00">
+            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2022-06-20T16:55:30+08:00">
   <a class='notlink'>
     <i class="fa-solid fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2022年6月20日</p>
@@ -5813,8 +5813,8 @@ const g=m[b].parentNode.siblings().length;m[b].innerText=`1 / ${0===a(g/10)?1:a(
       fixed='false'
       list-max-height='320px'
       server='netease'
-      type='song'
-      id='534065323'
+      type='playlist'
+      id='7497952781'
       list-folded='true'>
     </meting-js>
   
@@ -6511,7 +6511,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
             Metings.forEach((item, index) => {
               const aplayerItem = item.aplayer; if(!aplayerItem) return;
               const rightAplayerCheck = 'true' === 'true'
-                && item.meta.id === '534065323'; 
+                && item.meta.id === '7497952781'; 
               if(rightAplayerCheck) RightMenuAplayer.checkAPlayer();
               if(aplayerItem.events.events.play.every(item => {return item.name !== 'messagePlay'})) {
                 aplayerItem.on('play', function messagePlay() {
@@ -6563,63 +6563,51 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 
 
       <script>
-  volantis.layoutHelper("comments",`<div id="artalk_container"><i class="fa-solid fa-cog fa-spin fa-fw fa-2x"></i></div>`);
-  function load_artalk() {
-    if(!document.querySelectorAll("#artalk_container")[0])return;
-    volantis.css("https://yours-artalk-domain/dist/Artalk.css");
-    volantis.js("https://yours-artalk-domain/dist/Artalk.js").then(pjax_artalk);
-  }
+  volantis.layoutHelper("comments",`<div id="giscus_container"></div>`)
 
-  function pjax_artalk() {
-    if(!document.querySelectorAll("#artalk_container")[0])return;
-    let path = pdata.commentPath;
-    let placeholder = pdata.commentPlaceholder || "" || "";
-    if (path.length == 0) {
-      path = '' || decodeURI(window.location.pathname);
-    }
+  volantis.giscus = {};
 
-    volantis.artalk = new Artalk(Object.assign({"js":"https://yours-artalk-domain/dist/Artalk.js","css":"https://yours-artalk-domain/dist/Artalk.css","server":"https://yours-artalk-domain","path":null,"placeholder":null}, {
-      el: '#artalk_container',
-      pageKey: path,
-      pageTitle: document.title,
-      placeholder: placeholder,
-      useBackendConf: true,
-      site: '古怪杂学笔记本',
-      darkMode: volantis.dark.mode === "dark",
-      pvEl: '#artalk_visitors'
-    }));
-
-    volantis.artalk.then(ctx => {
-      ctx.on('comments-loaded', () => {
-        if (typeof VolantisFancyBox === "undefined"){
-          const checkFancyBox = setInterval(() => {
-            if(typeof VolantisFancyBox === "undefined") return;
-            clearInterval(checkFancyBox);
-            VolantisFancyBox.groupBind('.atk-content img:not([atk-emoticon])', 'Comments');
-          })
-        } else {
-          VolantisFancyBox.groupBind('.atk-content img:not([atk-emoticon])', 'Comments');
-        }
-      })
-    })
-  }
-
-  load_artalk();
-  volantis.pjax.push(()=>{
-    if (typeof Artalk === "undefined") {
-      load_artalk();
+  function check_giscus() {
+    if (volantis.dark.mode === "dark") {
+      volantis.giscus.Theme = 'dark';
     } else {
-      pjax_artalk();
+      volantis.giscus.Theme = 'light';
     }
-  },'artalk');
 
-  function dark_artalk() {
-    if(!document.querySelectorAll("#artalk_container")[0]) return;
-    volantis.artalk.then(ctx => {
-      ctx.setDarkMode(volantis.dark.mode === "dark")
-    })
+    return document.getElementById("giscus_container");
   }
-  volantis.dark.push(dark_artalk);
+
+  function pjax_giscus() {
+    const HEAD = check_giscus();
+    if (!HEAD) return;
+    let cfg = Object.assign({"repo":"GuuGuai/giscus","repo-id":"R_kgDOHh8jKw","category":"General","category-id":"DIC_kwDOHh8jK84CPxdw","mapping":"pathname","reactions-enabled":"1","emit-metadata":"0","lang":"zh-CN","theme":{"light":"light","dark":"dark"}},pdata.commentConfig)
+    const script = document.createElement('script');
+    script.setAttribute('src', 'https://giscus.app/client.js');
+    Object.keys(cfg).forEach(k=>{
+      if (k != "theme") {
+        script.setAttribute('data-'+k, cfg[k]);
+      }
+    })
+    script.setAttribute('data-theme', volantis.giscus.Theme);
+    script.setAttribute('crossorigin', "anonymous");
+    HEAD.appendChild(script);
+  }
+
+  function dark_giscus() {
+    const HEAD = check_giscus();
+    if (!HEAD) return;
+
+    const message = {
+      setConfig: {
+        theme: volantis.giscus.Theme
+      }
+    };
+    const giscusIframe = document.querySelector('iframe.giscus-frame');
+    giscusIframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+  }
+  pjax_giscus();
+  volantis.pjax.push(pjax_giscus);
+  volantis.dark.push(dark_giscus);
 </script>
 
     
@@ -6917,6 +6905,27 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 </script>
 
 
+
+
+  
+
+
+<!-- baidu Analytics -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  setTimeout(function() {
+    volantis.js("https://hm.baidu.com/hm.js?f56cdcea3fb020c35f9330e3ce6dd22a")
+  }, 1000);
+})();
+// 关于百度统计对 SPA 页面的处理：
+// 方案一：百度统计>管理>单页应用设置中，打开开启按钮即可对SPA进行统计。 https://tongji.baidu.com/web/help/article?id=324
+// 方案二：取消注释下列代码。 https://tongji.baidu.com/web/help/article?id=235
+volantis.pjax.push(()=>{_hmt.push(['_trackPageview', document.location.pathname]);},'baidu_analytics')
+</script>
+
+
+		
 
 
 
