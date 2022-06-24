@@ -276,103 +276,6 @@ button {
   overflow: hidden;
   margin-bottom: -100px;
 }
-.cover-wrapper .cover-bg {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-}
-.cover-wrapper .cover-bg.lazyload:not(.loaded) {
-  opacity: 0;
-  -webkit-opacity: 0;
-  -moz-opacity: 0;
-}
-.cover-wrapper .cover-bg.lazyload.loaded {
-  animation-delay: 0s;
-  animation-duration: 0.5s;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-out;
-  animation-name: fadeIn;
-}
-@-moz-keyframes fadeIn {
-  0% {
-    opacity: 0;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    filter: blur(12px);
-    transform: scale(1.02);
-    -webkit-transform: scale(1.02);
-    -khtml-transform: scale(1.02);
-    -moz-transform: scale(1.02);
-    -o-transform: scale(1.02);
-    -ms-transform: scale(1.02);
-  }
-  100% {
-    opacity: 1;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-  }
-}
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    filter: blur(12px);
-    transform: scale(1.02);
-    -webkit-transform: scale(1.02);
-    -khtml-transform: scale(1.02);
-    -moz-transform: scale(1.02);
-    -o-transform: scale(1.02);
-    -ms-transform: scale(1.02);
-  }
-  100% {
-    opacity: 1;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-  }
-}
-@-o-keyframes fadeIn {
-  0% {
-    opacity: 0;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    filter: blur(12px);
-    transform: scale(1.02);
-    -webkit-transform: scale(1.02);
-    -khtml-transform: scale(1.02);
-    -moz-transform: scale(1.02);
-    -o-transform: scale(1.02);
-    -ms-transform: scale(1.02);
-  }
-  100% {
-    opacity: 1;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-  }
-}
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    filter: blur(12px);
-    transform: scale(1.02);
-    -webkit-transform: scale(1.02);
-    -khtml-transform: scale(1.02);
-    -moz-transform: scale(1.02);
-    -o-transform: scale(1.02);
-    -ms-transform: scale(1.02);
-  }
-  100% {
-    opacity: 1;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-  }
-}
 .cover-wrapper .cover-body {
   z-index: 1;
   position: relative;
@@ -836,6 +739,71 @@ button {
   .cover-wrapper.dock .menu {
     background: rgba(255,255,255,0.5);
     backdrop-filter: saturate(200%) blur(20px);
+  }
+}
+.cover-wrapper #parallax-window {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+.parallax-mirror {
+  animation-delay: 0s;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+  animation-name: fadeIn;
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    filter: blur(12px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    filter: blur(12px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    filter: blur(12px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    filter: blur(12px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -1912,17 +1880,17 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: false,
     cdn: {"js":{"app":"/js/app.3690b000.js","parallax":"/js/plugins/parallax.8bf0ab10.js","rightMenu":"/js/plugins/rightMenu.1d2dd3e0.js","rightMenus":"/js/plugins/rightMenus.48fa1716.js","sites":"/js/plugins/tags/sites.76bf19b8.js","friends":"/js/plugins/tags/friends.f372da57.js","contributors":"/js/plugins/tags/contributors.aec80453.js","search":"/js/search/hexo.06d40311.js"},"css":{"style":"/css/style.2968ac67.css"}},
     default: {"avatar":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/avatar/round/3442075.svg","link":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/cover/76b86c0226ffd.svg","image":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1655969690094),
+    lastupdate: new Date(1656035143764),
     sidebar: {
-      for_page: ["blogger","category","tagcloud","donate"],
-      for_post: ["toc"],
+      for_page: ["blogger","category","tagcloud","donate","webinfo","lastupdate"],
+      for_post: ["toc","text","webinfo","lastupdate"],
       webinfo: {
         lastupd: {
           enable: true,
           friendlyShow: true
         },
         runtime: {
-          data: "2020/01/01",
+          data: "2022/04/26",
           unit: "天"
         }
       }
@@ -1940,7 +1908,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         music_alwaysShow: true,
         customPicUrl: {"enable":false,"old":null,"new":null}
       },      
-      rightmenus: {"enable":true,"order":["plugins.navigation","hr","plugins.inputBox","plugins.seletctText","plugins.elementCheck","plugins.elementImage","menus.link","hr","menus.darkMode","plugins.articlePage","music"],"options":{"iconPrefix":"fa-solid","articleShowLink":false,"musicAlwaysShow":false,"corsAnywhere":null},"plugins":{"navigation":[{"id":"left","name":"转到上一页","icon":"fa-solid fa-arrow-left","event":"history.back()","group":"navigation"},{"id":"right","name":"转到下一页","icon":"fa-solid fa-arrow-right","event":"history.forward()","group":"navigation"},{"id":"redo","name":"刷新当前页面","icon":"fa-solid fa-redo","event":"window.location.reload()","group":"navigation"},{"id":"up","name":"回到顶部","icon":"fa-solid fa-arrow-up","event":"VolantisApp.scrolltoElement(volantis.dom.bodyAnchor)","group":"navigation"}],"inputBox":[{"id":"copyPaste","name":"粘贴文本","icon":"fa-solid fa-paste","event":"copyPaste","group":"inputBox"},{"id":"copyAll","name":"全选文本","icon":"fa-solid fa-object-ungroup","event":"copyAll","group":"inputBox"},{"id":"copyCut","name":"剪切文本","icon":"fa-solid fa-cut","event":"copyCut","group":"inputBox"}],"seletctText":[{"id":"copyText","name":"复制文本","icon":"fa-solid fa-copy","event":"copyText","group":"seletctText"},{"id":"searchWord","name":"站内搜索","icon":"fa-solid fa-search","event":"OpenSearch(__text__)","group":"seletctText"},{"id":"bingSearch","name":"必应搜索","icon":"fa-solid fa-search","event":"window.open(`https://cn.bing.com/search?q=${__text__}`)","group":"seletctText"},{"id":"baiduSearch","name":"百度搜索","icon":"fa-solid fa-search","event":"window.open(`https://www.baidu.com/s?ie=UTF-8&wd=${__text__}`)","group":"seletctText"}],"elementCheck":[{"id":"openTab","name":"新标签页打开","icon":"fa-solid fa-external-link-square-alt","event":"window.open(__link__)","group":"elementCheck"},{"id":"copyLink","name":"复制链接地址","icon":"fa-solid fa-link","event":"copyLink","group":"elementCheck"}],"elementImage":[{"id":"copyImg","name":"复制图片","icon":"fa-solid fa-image","event":"copyImg","group":"elementImage"},{"id":"googleImg","name":"谷歌识图","icon":"fa-solid fa-images","event":"window.open(`https://www.google.com.hk/searchbyimage?image_url=${__link__}`)","group":"elementImage"}],"articlePage":[{"id":"printMode","name":"打印页面","icon":"fa-solid fa-print","event":"printMode","group":"articlePage"},{"id":"readMode","name":"阅读模式","icon":"fa-solid fa-book-open","event":"readMode","group":"articlePage"}]},"menus":{"link":[{"id":"help","name":"常见问题","icon":"fa-solid fa-question","link":"https://volantis.js.org/faqs/","group":"link"},{"id":"examples","name":"示例博客","icon":"fa-solid fa-rss","link":"https://volantis.js.org/examples/","group":"link"},{"id":"contributors","name":"加入社区","icon":"fa-solid fa-fan","link":"https://volantis.js.org/contributors/","group":"link"},"hr",{"id":"source_docs","name":"本站源码","icon":"fa-solid fa-code-branch","link":"https://github.com/volantis-x/volantis-docs/","group":"link"},{"id":"source_theme","name":"主题源码","icon":"fa-solid fa-code-branch","link":"https://github.com/volantis-x/hexo-theme-volantis/","group":"link"}],"darkMode":[{"id":"darkMode","name":"暗黑模式","icon":"fa-solid fa-moon","event":"volantis.dark.toggle()","group":"darkMode"}]}}
+      rightmenus: {"enable":true,"order":["plugins.navigation","hr","plugins.inputBox","plugins.seletctText","plugins.elementCheck","plugins.elementImage","menus.link","hr","menus.darkMode","plugins.articlePage","music"],"options":{"iconPrefix":"fa-solid","articleShowLink":false,"musicAlwaysShow":false,"corsAnywhere":null},"plugins":{"navigation":[{"id":"left","name":"转到上一页","icon":"fa-solid fa-arrow-left","event":"history.back()","group":"navigation"},{"id":"right","name":"转到下一页","icon":"fa-solid fa-arrow-right","event":"history.forward()","group":"navigation"},{"id":"redo","name":"刷新当前页面","icon":"fa-solid fa-redo","event":"window.location.reload()","group":"navigation"},{"id":"up","name":"回到顶部","icon":"fa-solid fa-arrow-up","event":"VolantisApp.scrolltoElement(volantis.dom.bodyAnchor)","group":"navigation"}],"inputBox":[{"id":"copyPaste","name":"粘贴文本","icon":"fa-solid fa-paste","event":"copyPaste","group":"inputBox"},{"id":"copyAll","name":"全选文本","icon":"fa-solid fa-object-ungroup","event":"copyAll","group":"inputBox"},{"id":"copyCut","name":"剪切文本","icon":"fa-solid fa-cut","event":"copyCut","group":"inputBox"}],"seletctText":[{"id":"copyText","name":"复制文本","icon":"fa-solid fa-copy","event":"copyText","group":"seletctText"},{"id":"searchWord","name":"站内搜索","icon":"fa-solid fa-search","event":"OpenSearch(__text__)","group":"seletctText"},{"id":"bingSearch","name":"必应搜索","icon":"fa-solid fa-search","event":"window.open(`https://cn.bing.com/search?q=${__text__}`)","group":"seletctText"},{"id":"baiduSearch","name":"百度搜索","icon":"fa-solid fa-search","event":"window.open(`https://www.baidu.com/s?ie=UTF-8&wd=${__text__}`)","group":"seletctText"}],"elementCheck":[{"id":"openTab","name":"新标签页打开","icon":"fa-solid fa-external-link-square-alt","event":"window.open(__link__)","group":"elementCheck"},{"id":"copyLink","name":"复制链接地址","icon":"fa-solid fa-link","event":"copyLink","group":"elementCheck"}],"elementImage":[{"id":"copyImg","name":"复制图片","icon":"fa-solid fa-image","event":"copyImg","group":"elementImage"},{"id":"googleImg","name":"谷歌识图","icon":"fa-solid fa-images","event":"window.open(`https://www.google.com.hk/searchbyimage?image_url=${__link__}`)","group":"elementImage"}],"articlePage":[{"id":"printMode","name":"打印页面","icon":"fa-solid fa-print","event":"printMode","group":"articlePage"},{"id":"readMode","name":"阅读模式","icon":"fa-solid fa-book-open","event":"readMode","group":"articlePage"}]},"menus":{"link":[{"id":"source_docs","name":"本站源码","icon":"fa-solid fa-code-branch","link":"https://github.com/volantis-x/volantis-docs/","group":"link"},{"id":"source_theme","name":"主题源码","icon":"fa-solid fa-code-branch","link":"https://github.com/volantis-x/hexo-theme-volantis/","group":"link"}],"darkMode":[{"id":"darkMode","name":"暗黑模式","icon":"fa-solid fa-moon","event":"volantis.dark.toggle()","group":"darkMode"}]}}
     }
   }
 
@@ -2596,7 +2564,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <!-- see: /layout/_partial/scripts/_ctrl/coverCtrl.ejs -->
       <div id="half" class='cover-wrapper  dock' style="display: ;">
         
-  <div class='cover-bg lazyload placeholder' data-bg="https://www.helloimg.com/images/2022/05/13/RzVpio.png"></div>
+  <div id="parallax-window"></div>
 
 <div class='cover-body'>
   <div class='top'>
@@ -2618,6 +2586,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               
               active-action="action-home">
               <img src='https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/twemoji/assets/svg/1f4f0.svg'><p>博客</p>
+            </a>
+          
+            <a href="/faqs/"
+              
+              
+              active-action="action-faqs">
+              <img src='https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/twemoji/assets/svg/1f516.svg'><p>关于</p>
             </a>
           
             <a href="/archives/"
@@ -2851,12 +2826,14 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
       
         <a class='avatar flat-box rectangle' href='/about/'>
-          <img no-lazy src='https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/Logo-NavBar@3x.png'/>
+          <img no-lazy src='https://www.helloimg.com/images/2022/06/23/ZnWNjm.jpg'/>
         </a>
       
     
     
       <div class='text'>
+        
+          <h2>古古怪怪GuuGuai</h2>
         
         
         
@@ -2878,7 +2855,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           
         
           
-            <a href="mailto:me@xxx.com"
+            <a href="/kaguyasama@yeah.net"
               class="social fa-solid fa-envelope flat-btn"
               target="_blank"
               rel="external nofollow noopener noreferrer">
@@ -2887,7 +2864,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           
         
           
-            <a href="https://github.com/volantis-x/"
+            <a href="https://github.com/guuguai/"
               class="social fab fa-github flat-btn"
               target="_blank"
               rel="external nofollow noopener noreferrer">
@@ -2896,7 +2873,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           
         
           
-            <a href="/"
+            <a href="https://music.163.com/#/playlist?id=7497952781&amp;creatorId=587976676"
               class="social fa-solid fa-headphones-alt flat-btn"
               target="_blank"
               rel="external nofollow noopener noreferrer">
@@ -2925,12 +2902,91 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   
 
+  
+    
+    
+
+<section class="widget shadow floatable blur desktop pjax">
+  
+  <header>
+    
+      <i class="fa-solid fa-award fa-fw" aria-hidden="true"></i><span class='name'>站点信息</span>
+    
+  </header>
+
+
+  <div class='content'>
+    <div class="webinfo">
+      
+        <div class="webinfo-item">
+          <div>文章数目：</div>
+          <div>3 篇</div>
+        </div>
+      
+
+      
+        <div class="webinfo-item">
+          <div>已运行时间：</div>
+          <div id="webinfo-runtime-count"></div>
+        </div>
+      
+
+
+      
+
+      
+        <div class="webinfo-item">
+          <div>本站访客数：</div>
+          
+          <div><span id="lc-uv"><span id='number'><i class="fa-solid fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span></span> 人</div>
+          
+        </div>
+      
+
+      
+        <div class="webinfo-item">
+          <div>本站总访问量：</div>
+          
+          <div><span id="lc-sv"><span id='number'><i class="fa-solid fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span></span> 次</div>
+          
+        </div>
+      
+
+      
+        <div class="webinfo-item">
+          <div>最后活动时间：</div>
+          <div id="last-update-show">2022-06-24 日</div> 
+        </div>
+      
+    </div>
+  </div>
+</section>
+
+  
+
+  
+    
+     
+
+ 
+<section class="widget shadow floatable blur desktop mobile pjax"> 
+  
+  <header>
+    
+      <i class="fa-solid fa-clock WISTERIA fa-fw" aria-hidden="true"></i><span class='name'>最近更新</span>
+    
+  </header>
+
+ 
+  <div class='content'> 
+    <ul class="list entry navigation"><li><a class="widget-last" href="/2022/06/20/%E5%8D%9A%E5%AE%A2%E4%BB%8B%E7%BB%8D/"><div class="item"><time>2022-06-20</time></div><span>博客介绍</span></a></li><li><a class="widget-last" href="/2022/05/22/%E5%8F%A4%E6%80%AA%E7%9A%84%E8%BF%BD%E5%89%A7%E5%88%97%E8%A1%A8/"><div class="item"><time>2022-05-22</time></div><span>古怪的追剧列表</span></a></li><li><a class="widget-last" href="/2022/05/22/%E5%8F%A4%E6%80%AA%E7%9A%84%E8%BF%BD%E7%95%AA%E5%88%97%E8%A1%A8/"><div class="item"><time>2022-05-22</time></div><span>古怪的追番列表</span></a></li></ul> 
+  </div> 
+</section> 
+
+  
+
 
 <!-- 没有 pjax 占位会报错 万恶的 pjax -->
-
-  <div class="pjax">
-    <!-- pjax占位 -->
-  </div>
 
   <div class="pjax">
     <!-- pjax占位 -->
@@ -3258,37 +3314,6 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
   <li class="menuLoad-Content">
-    <a class="vlts-menu fix-cursor-default" id="help" target="_blank" rel="noopener" href="https://volantis.js.org/faqs/" data-group="link">
-      <i class="fa-solid fa-question fa-fw"></i>
-      常见问题
-    </a>
-  </li> 
-
-
-
-  <li class="menuLoad-Content">
-    <a class="vlts-menu fix-cursor-default" id="examples" target="_blank" rel="noopener" href="https://volantis.js.org/examples/" data-group="link">
-      <i class="fa-solid fa-rss fa-fw"></i>
-      示例博客
-    </a>
-  </li> 
-
-
-
-  <li class="menuLoad-Content">
-    <a class="vlts-menu fix-cursor-default" id="contributors" target="_blank" rel="noopener" href="https://volantis.js.org/contributors/" data-group="link">
-      <i class="fa-solid fa-fan fa-fw"></i>
-      加入社区
-    </a>
-  </li> 
-
-
-
-    <hr class="menuLoad-Content" >
-
-
-
-  <li class="menuLoad-Content">
     <a class="vlts-menu fix-cursor-default" id="source_docs" target="_blank" rel="noopener" href="https://github.com/volantis-x/volantis-docs/" data-group="link">
       <i class="fa-solid fa-code-branch fa-fw"></i>
       本站源码
@@ -3444,14 +3469,6 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
   RightMenusFunction['googleImg'] = (__link__) => {window.open(`https://www.google.com.hk/searchbyimage?image_url=${__link__}`)}
   
-  
- 
-  
- 
-  
- 
-  
- 
   
  
   
@@ -4155,6 +4172,59 @@ volantis.pjax.push(()=>{_hmt.push(['_trackPageview', document.location.pathname]
 
 
 
+
+
+  <script>
+  let imgs = ["https://tva1.sinaimg.cn/mw690/006oo2myly1h3ilvxv77aj325s1e04qq.jpg","https://tva1.sinaimg.cn/mw690/006oo2myly1h3ilvsx9h8j31ay0qeb29.jpg","https://tva1.sinaimg.cn/mw690/006oo2myly1h3ilwbqy9fj336u1wwkjo.jpg","https://tva1.sinaimg.cn/mw690/006oo2myly1h3ilvxr4lxj312z0rkhdt.jpg","https://tva1.sinaimg.cn/mw690/006oo2myly1h3ilvs4bn1j31tk154e6i.jpg","https://tva1.sinaimg.cn/mw690/006oo2myly1h3ilvnng8oj30vy0o97wh.jpg","https://tva1.sinaimg.cn/mw690/006oo2myly1h3ilvm5axfj318g0uxe81.jpg","https://tva1.sinaimg.cn/mw690/006oo2myly1h3ilvhgn9sj313a0rsqv5.jpg","https://tva1.sinaimg.cn/mw690/006oo2myly1h3ilw65zafj32a41hlx6p.jpg","https://tva1.sinaimg.cn/mw690/006oo2myly1h3ilw3wk6uj31rj15o7wh.jpg","https://tva1.sinaimg.cn/mw690/006oo2myly1h3ilvyoaacj312x0rgqv5.jpg","https://tva1.sinaimg.cn/mw690/006oo2myly1h3ilvixpy6j31jk0yqb29.jpg","https://tva1.sinaimg.cn/mw690/006oo2myly1h3ilvuljs8j32dc1exe82.jpg","https://tva1.sinaimg.cn/mw690/006oo2myly1h3ilvxclmij32d91kae81.jpg","https://tva1.sinaimg.cn/mw690/006oo2myly1h3ilwh9mxwj329p1hfkjq.jpg","https://tva1.sinaimg.cn/mw690/006oo2myly1h3ilw21ks3j34io30gx6r.jpg","https://tva1.sinaimg.cn/mw690/006oo2myly1h3ilwiu52gj33h51qknpf.jpg","https://tva1.sinaimg.cn/mw690/006oo2myly1h3ilvls5fuj31dk0z8k57.jpg","https://tva1.sinaimg.cn/mw690/006oo2myly1h3ilvqseujj30pe0i2k86.jpg","https://tva1.sinaimg.cn/mw690/006oo2myly1h3ilvmhmnvj30xc0nkb29.jpg","https://tva1.sinaimg.cn/mw690/006oo2myly1h3ilvotonmj315o0rsnez.jpg","https://tva1.sinaimg.cn/mw690/006oo2myly1h3ilvgubqfj30yw0lq1at.jpg","https://tva1.sinaimg.cn/mw690/006oo2myly1h3ilwoh6lwj32m11o0b2g.jpg","https://tva1.sinaimg.cn/mw690/006oo2myly1h3ilvikanaj30t90m3qux.jpg","https://tva1.sinaimg.cn/mw690/006oo2myly1h3ilw0eb4wj325s1jku0y.jpg","https://tva1.sinaimg.cn/mw690/006oo2myly1h3ilvj5fowj31c00yue81.jpg","https://tva1.sinaimg.cn/mw690/006oo2myly1h3ilwpo199j335w1gsqvc.jpg","https://tva1.sinaimg.cn/mw690/006oo2myly1h3ilw7njxpj31xg142kjl.jpg","https://tva1.sinaimg.cn/mw690/006oo2myly1h3ilvgmn0vj324o1547ny.jpg","https://tva1.sinaimg.cn/mw690/006oo2myly1h3ilvm6sq8j31hc0xck4z.jpg","https://tva1.sinaimg.cn/mw690/006oo2myly1h3ilvj3a7jj32nm1opu0x.jpg","https://tva1.sinaimg.cn/mw690/006oo2myly1h3ilvtupq5j33uw2fkx6q.jpg","https://tva1.sinaimg.cn/mw690/006oo2myly1h3ilwpklcvj32yo1o0e88.jpg"];
+  let index = 0;
+  let IntervalParallax = null;
+
+  function parallax(){
+    let ParallaxWindow = document.querySelector("#parallax-window");
+    
+      ParallaxWindow = document.querySelector("html");
+    
+    Parallax.window = ParallaxWindow;
+    Parallax.options.fade = 1500;
+    Parallax.cache = 1;
+    next_parallax();
+    Parallax.init();
+    if (imgs.length>1) {
+      IntervalParallax = setInterval(function () {
+        next_parallax();
+      }, '10000');
+    }
+  }
+
+  function next_parallax() {
+    if (typeof Parallax == "undefined") {
+      return
+    }
+    
+    if (imgs.length>=1) {
+      Parallax.options.src = imgs[index % imgs.length];
+      Parallax.start();
+      index++;
+      if (Parallax.cache) {
+        fetch(imgs[index % imgs.length] +"?t=" + new Date().getTime());
+        if (index == imgs.length) {
+          Parallax.cache = 0;
+        }
+      }
+    }
+  }
+  var runningOnBrowser = typeof window !== "undefined";
+  var isBot = runningOnBrowser && !("onscroll" in window) || typeof navigator !== "undefined" && /(gle|ing|ro|msn)bot|crawl|spider|yand|duckgo/i.test(navigator.userAgent);
+  if (!isBot) {
+    volantis.js('/js/plugins/parallax.8bf0ab10.js').then(()=>{
+      parallax()
+    })
+    volantis.pjax.send(()=>{
+      clearInterval(IntervalParallax)
+    },"clearIntervalParallax");
+    volantis.pjax.push(parallax);
+  }
+</script>
 
 
 
