@@ -25,7 +25,7 @@
   
   <!-- Custom Files headBegin end-->
     <link rel="shortcut icon" type='image/x-icon' href="https://raw.githubusercontent.com/GuuGuai/GuG-IMG/9ef92c07a54dd3699ce887ed24744f37e28e9c44/logo.ico">
-  <link rel="preload" href="/css/style.2968ac67.css" as="style">
+  <link rel="preload" href="/css/style.0f89b27c.css" as="style">
   <link rel="preload" href="https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/fonts/VarelaRound/VarelaRound-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 <link rel="preload" href="https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/fonts/UbuntuMono/UbuntuMono-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 
@@ -66,7 +66,7 @@
   --color-site-body: #f4f4f4;
   --color-site-bg: #f4f4f4;
   --color-site-inner: #fff;
-  --color-site-footer: #666;
+  --color-site-footer: #fff;
   --color-card: #fff;
   --color-text: #444;
   --color-block: #f6f6f6;
@@ -235,6 +235,9 @@ button {
 .shadow.floatable:hover {
   box-shadow: 0 2px 4px 0px rgba(0,0,0,0.1), 0 4px 8px 0px rgba(0,0,0,0.1), 0 8px 16px 0px rgba(0,0,0,0.1);
   -webkit-box-shadow: 0 2px 4px 0px rgba(0,0,0,0.1), 0 4px 8px 0px rgba(0,0,0,0.1), 0 8px 16px 0px rgba(0,0,0,0.1);
+}
+.parallax-mirror {
+  filter: brightness(0.5);
 }
 #l_cover {
   min-height: 64px;
@@ -1799,8 +1802,8 @@ ul.list-v >li>a:hover {
 }
 
   </style>
-  <link rel="stylesheet" href="/css/style.2968ac67.css" media="print" onload="this.media='all';this.onload=null">
-  <noscript><link rel="stylesheet" href="/css/style.2968ac67.css"></noscript>
+  <link rel="stylesheet" href="/css/style.0f89b27c.css" media="print" onload="this.media='all';this.onload=null">
+  <noscript><link rel="stylesheet" href="/css/style.0f89b27c.css"></noscript>
     <script>
       let userColorScheme=localStorage.getItem("color-scheme")
       if(userColorScheme){
@@ -1878,12 +1881,12 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   volantis.GLOBAL_CONFIG ={
     debug: false,
-    cdn: {"js":{"app":"/js/app.3690b000.js","parallax":"/js/plugins/parallax.8bf0ab10.js","rightMenu":"/js/plugins/rightMenu.1d2dd3e0.js","rightMenus":"/js/plugins/rightMenus.48fa1716.js","sites":"/js/plugins/tags/sites.76bf19b8.js","friends":"/js/plugins/tags/friends.f372da57.js","contributors":"/js/plugins/tags/contributors.aec80453.js","search":"/js/search/hexo.06d40311.js"},"css":{"style":"/css/style.2968ac67.css"}},
+    cdn: {"js":{"app":"/js/app.3690b000.js","parallax":"/js/plugins/parallax.8bf0ab10.js","rightMenu":"/js/plugins/rightMenu.1d2dd3e0.js","rightMenus":"/js/plugins/rightMenus.48fa1716.js","sites":"/js/plugins/tags/sites.76bf19b8.js","friends":"/js/plugins/tags/friends.f372da57.js","contributors":"/js/plugins/tags/contributors.aec80453.js","search":"/js/search/hexo.06d40311.js"},"css":{"style":"/css/style.0f89b27c.css"}},
     default: {"avatar":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/avatar/round/3442075.svg","link":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/cover/76b86c0226ffd.svg","image":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1656037910111),
+    lastupdate: new Date(1656433344865),
     sidebar: {
-      for_page: ["blogger","category","tagcloud","donate","webinfo","lastupdate"],
-      for_post: ["toc","text","webinfo","lastupdate"],
+      for_page: ["blogger","webinfo","category","tagcloud","donate","lastupdate"],
+      for_post: ["toc","text","webinfo","category","tagcloud","lastupdate"],
       webinfo: {
         lastupd: {
           enable: true,
@@ -2310,7 +2313,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
         <a class="title flat-box" target="_self" href='/'>
           
-            <img no-lazy class='logo' src='https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/Logo-NavBar@3x.png'/>
+            <img no-lazy class='logo' src='https://www.helloimg.com/images/2022/06/28/Zlj0T5.png'/>
           
           
           
@@ -2394,6 +2397,23 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover" 
+                href="/2022/06/28/help/index/" title="帮助"
+                  
+                  
+                  
+                    active-action="action-20220628helpindex"
+                  >
+                  <i class='fa-solid fa-circle-question fa-fw'></i>帮助
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" 
                 href="/friends/" title="友链"
                   
                   
@@ -2430,7 +2450,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <div class="m_search">
         <form name="searchform" class="form u-search-form">
           <i class="icon fa-solid fa-search fa-fw"></i>
-          <input type="text" class="input u-search-input" placeholder="Search..." />
+          <input type="text" class="input u-search-input" placeholder="找不到来搜嘛" />
         </form>
       </div>
       
@@ -2515,6 +2535,23 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover" 
+                href="/2022/06/28/help/index/" title="帮助"
+                  
+                  
+                  
+                    active-action="action-20220628helpindex"
+                  >
+                  <i class='fa-solid fa-circle-question fa-fw'></i>帮助
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" 
                 href="/friends/" title="友链"
                   
                   
@@ -2588,11 +2625,25 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               <img src='https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/twemoji/assets/svg/1f4f0.svg'><p>博客</p>
             </a>
           
-            <a href="/faqs/"
+            <a href="/about/"
               
               
-              active-action="action-faqs">
+              active-action="action-about">
               <img src='https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/twemoji/assets/svg/1f516.svg'><p>关于</p>
+            </a>
+          
+            <a href="/2022/06/28/help/index/"
+              
+              
+              active-action="action-20220628helpindex">
+              <img src='https://npm.elemecdn.com/volantis-static@0.0.1654736714924/media/twemoji/assets/svg/1f4ac.svg'><p>帮助</p>
+            </a>
+          
+            <a href="/friends/"
+              
+              
+              active-action="action-friends">
+              <img src='https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/twemoji/assets/svg/1f389.svg'><p>友链</p>
             </a>
           
             <a href="/archives/"
@@ -2633,7 +2684,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
           <div class='post-wrapper'>
             <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="http://gug.thisis.host/2022/06/20/%E5%8D%9A%E5%AE%A2%E4%BB%8B%E7%BB%8D/">
+  <link itemprop="mainEntityOfPage" href="http://gug.thisis.host/2022/06/28/help/index/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="古怪杂学笔记本">
   </span>
@@ -2651,19 +2702,21 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     
     <h2 class="article-title"  itemprop="name headline">
-      <a href="/2022/06/20/%E5%8D%9A%E5%AE%A2%E4%BB%8B%E7%BB%8D/"  itemprop="url">
-        博客介绍
+      <a href="/2022/06/28/help/index/"  itemprop="url">
+        帮助
       </a>
     </h2>
   
   <div class='md article-desc' itemprop="articleBody">
     
       
-        Hi，各位，这里是古怪。
-作为古怪杂学笔记本的第一条正式博客，我来简单说明一下博客的未来走向。
-博客的名字是古怪杂学笔记本，相信各位从名字也能看出来，这个博客未来可能什么都会写，毕竟是杂学笔记本嘛，我可能会将平时遇到的问题，积累的经验都在这里写出来，（前提是想写能写）废话不说了，准备第一条去了
+        此文章将解答你关于本博客的一些疑问
 
-
+常见问题Q:好卡啊A:可以关闭左下角的live2D看板娘以减少资源消耗
+Q:博客托管在哪？A:Netlify
+Q:用的什么图床？A:Helloimg图床
+Q:live2D小人哪来的？A:Github仓库地址
+Q:live2D小人第二个飞机按钮干什么用的？一点出现个三角形？A:那是一个小游戏，三角形是飞机，按下空格后顶部可以发射出子弹，按下字母B按键显示可...
       
     
   </div>
@@ -2671,12 +2724,20 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div class='meta-v3' line_style='solid'>
       <div>
         
-        <time itemprop="dateCreated datePublished" datetime="2022-06-20T11:35:59+08:00">2022-06-20</time>
+        <time itemprop="dateCreated datePublished" datetime="2022-06-28T23:08:51+08:00">2022-06-28</time>
+        
+          <span class="dot"></span>
+          <a class="category-link" href="/categories/%E5%8D%9A%E5%AE%A2/">博客</a>
+          
+            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+              <a href="/categories/%E5%8D%9A%E5%AE%A2/" itemprop="url"><span itemprop="name">博客</span></a>
+            </span>
+          
         
       </div>
       
         <div>
-          <a class='readmore' href='/2022/06/20/%E5%8D%9A%E5%AE%A2%E4%BB%8B%E7%BB%8D/' itemprop="url">
+          <a class='readmore' href='/2022/06/28/help/index/' itemprop="url">
             阅读全文
           </a>
         </div>
@@ -2709,7 +2770,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
       
         <a class='avatar flat-box rectangle' href='/about/'>
-          <img no-lazy src='https://www.helloimg.com/images/2022/06/23/ZnWNjm.jpg'/>
+          <img no-lazy src='https://www.helloimg.com/images/2022/06/28/Zlj0T5.png'/>
         </a>
       
     
@@ -2775,20 +2836,6 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
     
 
-  
-
-  
-    
-    
-
-  
-
-  
-
-  
-    
-    
-
 <section class="widget shadow floatable blur desktop pjax">
   
   <header>
@@ -2838,12 +2885,65 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <div class="webinfo-item">
           <div>最后活动时间：</div>
-          <div id="last-update-show">2022-06-24 日</div> 
+          <div id="last-update-show">2022-06-29 日</div> 
         </div>
       
     </div>
   </div>
 </section>
+
+  
+
+  
+    
+    
+  
+
+  <section class="widget category shadow floatable blur desktop pjax">
+    
+  <header>
+    
+      <a href='/blog/categories/'><i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i><span class='name'>文章分类</span></a>
+    
+  </header>
+
+
+    <div class='content'>
+      <ul class="entry navigation">
+        
+          <li><a class="flat-box"
+            title="/categories/%E5%8D%9A%E5%AE%A2/" href="/categories/%E5%8D%9A%E5%AE%A2/"
+            active-action="action-categoriesE58D9AE5AEA2"
+            ><div class='name'>博客</div><div class='badge'>(1)</div></a></li>
+        
+      </ul>
+    </div>
+  </section>
+
+
+  
+
+  
+    
+    
+  
+
+  <section class="widget tagcloud shadow floatable blur desktop mobile pjax">
+    
+  <header>
+    
+      <a href='/blog/tags/'><i class="fa-solid fa-tags fa-fw" aria-hidden="true"></i><span class='name'>热门标签</span></a>
+    
+  </header>
+
+
+    <div class='content'>
+      <a href="/tags/%E5%B8%AE%E5%8A%A9/" style="font-size: 14px; color: #999">帮助</a>
+    </div>
+  </section>
+
+
+  
 
   
 
@@ -2862,7 +2962,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
  
   <div class='content'> 
-    <ul class="list entry navigation"><li><a class="widget-last" href="/2022/06/20/%E5%8D%9A%E5%AE%A2%E4%BB%8B%E7%BB%8D/"><div class="item"><time>2022-06-20</time></div><span>博客介绍</span></a></li><li><a class="widget-last" href="/2022/05/22/%E5%8F%A4%E6%80%AA%E7%9A%84%E8%BF%BD%E5%89%A7%E5%88%97%E8%A1%A8/"><div class="item"><time>2022-05-22</time></div><span>古怪的追剧列表</span></a></li><li><a class="widget-last" href="/2022/05/22/%E5%8F%A4%E6%80%AA%E7%9A%84%E8%BF%BD%E7%95%AA%E5%88%97%E8%A1%A8/"><div class="item"><time>2022-05-22</time></div><span>古怪的追番列表</span></a></li></ul> 
+    <ul class="list entry navigation"><li><a class="widget-last" href="/2022/06/28/help/index/"><div class="item"><time>2022-06-28</time><span>博客</span></div><span>帮助</span></a></li><li><a class="widget-last" href="/2022/05/22/%E5%8F%A4%E6%80%AA%E7%9A%84%E8%BF%BD%E5%89%A7%E5%88%97%E8%A1%A8/"><div class="item"><time>2022-05-22</time></div><span>古怪的追剧列表</span></a></li><li><a class="widget-last" href="/2022/05/22/%E5%8F%A4%E6%80%AA%E7%9A%84%E8%BF%BD%E7%95%AA%E5%88%97%E8%A1%A8/"><div class="item"><time>2022-05-22</time></div><span>古怪的追番列表</span></a></li></ul> 
   </div> 
 </section> 
 
@@ -2994,26 +3094,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
     
     <!-- Custom Files footer begin-->
-    
-    <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span> 
-    <script>
-        var now = new Date(); 
-        function createtime() { 
-            var grt= new Date("04/04/2022 17:38:00");//在此处修改你的建站时间，格式：月/日/年 时:分:秒
-            now.setTime(now.getTime()+250); 
-            days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
-            hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
-            if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 
-            mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
-            seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
-            snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
-            document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 "; 
-            document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
-        } 
-    setInterval("createtime()",250);
-    </script>
-  <i class="fas fa-chart-area"></i>
-  <span class="post-count">字数统计：140</span>
+  
     <!-- Custom Files footer end-->
   </footer>
 
@@ -4058,7 +4139,7 @@ volantis.pjax.push(()=>{_hmt.push(['_trackPageview', document.location.pathname]
 
 
   <script>
-  let imgs = ["https://tva1.sinaimg.cn/large/006oo2myly1h3j379lz92j31rj15o15m.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j37agq0vj31ky0qe464.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j4078be4j31hc0u0dmp.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j40808dhj3280190k10.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j37a8rthj31dk0z8agr.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j408jqn6j31gs0qetin.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j37ad927j312w0rstex.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j379eqpij316o0ph45g.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j4085x2vj318g0p0wnj.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j378z03cj324o154dl4.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j379dlx8j31520qtn48.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j3799d2ej30vy0o977s.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j407xpxkj31xg15owyx.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j4084wsmj31040l9af9.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j379n0sxj312x0rgdlj.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j407ujvzj318g0p0dpj.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j4071jpvj31u814pk0w.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j406krjmj31j40w6qed.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j406j0bfj31tk154ais.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j408dhwuj31jk0w1gva.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j37941eoj31bt0udq7k.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j3796qvgj312z0rk431.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j37agw7aj312w0p045u.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j406pk1lj31qi12nk1z.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j4072v8dj31400mi0yl.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j406hwc0j315o0putdc.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j407csj1j315o0pnaex.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j37afrsyj31jk0yqqf1.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j37b020sj315o0rs44m.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j37910uij31lf0ygwkc.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j37adjk3j314u0qp7b6.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j37b1ukfj31jk0v9dnc.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j379mftrj31b80rsagp.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j378xlkwj31xg142149.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j378wf3ej313a0rs7ar.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j379adm5j30xc0nkwih.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j37bdegxj31ql0vaqf6.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j37958wqj31xg17sdq0.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j37awbg9j31b00u0k1w.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j37b63c7j31hc0u0drg.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j406mznej31cm0uzgu4.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j406ufjdj314e0qggq1.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j379t1o7j314o0r4td3.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j407qpqnj31e00s5gtr.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j379hfl7j318g0uxq97.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j379fcxoj30yw0lqju4.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j3796xioj30t90m3q6s.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j4082y35j31hc0u0dxl.jpg"];
+  let imgs = ["https://tva1.sinaimg.cn/large/006oo2myly1h3j379adm5j30xc0nkwih.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j4082y35j31hc0u0dxl.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j4085x2vj318g0p0wnj.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j37adjk3j314u0qp7b6.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j407ujvzj318g0p0dpj.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j37agq0vj31ky0qe464.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j37910uij31lf0ygwkc.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j407csj1j315o0pnaex.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j4084wsmj31040l9af9.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j37a8rthj31dk0z8agr.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j379lz92j31rj15o15m.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j37agw7aj312w0p045u.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j378z03cj324o154dl4.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j4072v8dj31400mi0yl.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j379n0sxj312x0rgdlj.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j3796xioj30t90m3q6s.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j406j0bfj31tk154ais.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j3799d2ej30vy0o977s.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j37b020sj315o0rs44m.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j37afrsyj31jk0yqqf1.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j4071jpvj31u814pk0w.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j4078be4j31hc0u0dmp.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j378xlkwj31xg142149.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j40808dhj3280190k10.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j37awbg9j31b00u0k1w.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j37b63c7j31hc0u0drg.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j378wf3ej313a0rs7ar.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j406hwc0j315o0putdc.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j379mftrj31b80rsagp.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j379hfl7j318g0uxq97.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j407qpqnj31e00s5gtr.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j379fcxoj30yw0lqju4.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j37bdegxj31ql0vaqf6.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j406mznej31cm0uzgu4.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j3796qvgj312z0rk431.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j379t1o7j314o0r4td3.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j379eqpij316o0ph45g.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j406krjmj31j40w6qed.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j406pk1lj31qi12nk1z.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j37ad927j312w0rstex.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j407xpxkj31xg15owyx.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j379dlx8j31520qtn48.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j37941eoj31bt0udq7k.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j408dhwuj31jk0w1gva.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j406ufjdj314e0qggq1.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j37b1ukfj31jk0v9dnc.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j408jqn6j31gs0qetin.jpg","https://tva1.sinaimg.cn/large/006oo2myly1h3j37958wqj31xg17sdq0.jpg"];
   let index = 0;
   let IntervalParallax = null;
 
@@ -4075,7 +4156,7 @@ volantis.pjax.push(()=>{_hmt.push(['_trackPageview', document.location.pathname]
     if (imgs.length>1) {
       IntervalParallax = setInterval(function () {
         next_parallax();
-      }, '10000');
+      }, '100000');
     }
   }
 

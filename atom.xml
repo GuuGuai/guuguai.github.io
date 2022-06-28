@@ -6,7 +6,7 @@
   <link href="http://gug.thisis.host/atom.xml" rel="self"/>
   
   <link href="http://gug.thisis.host/"/>
-  <updated>2022-06-20T03:54:07.638Z</updated>
+  <updated>2022-06-28T15:49:37.684Z</updated>
   <id>http://gug.thisis.host/</id>
   
   <author>
@@ -17,24 +17,28 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>博客介绍</title>
-    <link href="http://gug.thisis.host/2022/06/20/%E5%8D%9A%E5%AE%A2%E4%BB%8B%E7%BB%8D/"/>
-    <id>http://gug.thisis.host/2022/06/20/%E5%8D%9A%E5%AE%A2%E4%BB%8B%E7%BB%8D/</id>
-    <published>2022-06-20T03:35:59.000Z</published>
-    <updated>2022-06-20T03:54:07.638Z</updated>
+    <title>帮助</title>
+    <link href="http://gug.thisis.host/2022/06/28/help/index/"/>
+    <id>http://gug.thisis.host/2022/06/28/help/index/</id>
+    <published>2022-06-28T15:08:51.000Z</published>
+    <updated>2022-06-28T15:49:37.684Z</updated>
     
-    <content type="html"><![CDATA[<p>Hi，各位，这里是古怪。</p><p>作为古怪杂学笔记本的第一条正式博客，我来简单说明一下博客的未来走向。</p><p>博客的名字是古怪杂学笔记本，相信各位从名字也能看出来，这个博客未来可能什么都会写，毕竟是杂学笔记本嘛，我可能会将平时遇到的问题，积累的经验都在这里写出来，（前提是想写能写）废话不说了，准备第一条去了</p>]]></content>
+    <content type="html"><![CDATA[<div class="note"><p>此文章将解答你关于本博客的一些疑问</p></div><div class="story post-story"><h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><p>Q:好卡啊<br>A:可以关闭左下角的live2D看板娘以减少资源消耗</p><p>Q:博客托管在哪？<br>A:<a href="https://www.netlify.com/">Netlify</a></p><p>Q:用的什么图床？<br>A:<a href="https://www.helloimg.com/">Helloimg图床</a></p><p>Q:live2D小人哪来的？<br>A:<a href="https://github.com/stevenjoezhang/live2d-widget">Github仓库地址</a></p><p>Q:live2D小人第二个飞机按钮干什么用的？一点出现个三角形？<br>A:那是一个小游戏，三角形是飞机，按下空格后顶部可以发射出子弹，按下字母B按键显示可以被子弹打到的元素，元素被子弹打到后会消失，并且右下角计分板会加分，按下方向上键来向前走，方向左右键来换飞机方向，<a href="http://www.websiteasteroids.com/">这里是这个项目的官网。</a></p><p>Q:如何联系古怪？<br>A:<a href="mailto:&#x6b;&#x61;&#103;&#117;&#121;&#x61;&#x73;&#97;&#109;&#97;&#x40;&#121;&#101;&#x61;&#104;&#46;&#x6e;&#x65;&#x74;">&#x6b;&#x61;&#103;&#117;&#121;&#x61;&#x73;&#97;&#109;&#97;&#x40;&#121;&#101;&#x61;&#104;&#46;&#x6e;&#x65;&#x74;</a></p></div>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;Hi，各位，这里是古怪。&lt;/p&gt;
-&lt;p&gt;作为古怪杂学笔记本的第一条正式博客，我来简单说明一下博客的未来走向。&lt;/p&gt;
-&lt;p&gt;博客的名字是古怪杂学笔记本，相信各位从名字也能看出来，这个博客未来可能什么都会写，毕竟是杂学笔记本嘛，我可能会将平时遇到的问题，积累的经验都在这里写出</summary>
+    <summary type="html">&lt;div class=&quot;note&quot;&gt;&lt;p&gt;此文章将解答你关于本博客的一些疑问&lt;/p&gt;&lt;/div&gt;
+
+&lt;div class=&quot;story post-story&quot;&gt;&lt;h2 id=&quot;常见问题&quot;&gt;&lt;a href=&quot;#常见问题&quot; class=&quot;headerlink&quot; title=&quot;常见问题</summary>
       
     
     
     
+    <category term="博客" scheme="http://gug.thisis.host/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="帮助" scheme="http://gug.thisis.host/tags/%E5%B8%AE%E5%8A%A9/"/>
     
   </entry>
   
