@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>古怪杂学笔记本</title>
+  
+  
+  <link href="http://gug.thisis.host/atom.xml" rel="self"/>
+  
+  <link href="http://gug.thisis.host/"/>
+  <updated>2024-01-20T17:37:27.699Z</updated>
+  <id>http://gug.thisis.host/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>数学建模初步认知</title>
+    <link href="http://gug.thisis.host/2024/01/21/Mathematical-modeling-preliminary-understanding/"/>
+    <id>http://gug.thisis.host/2024/01/21/Mathematical-modeling-preliminary-understanding/</id>
+    <published>2024-01-20T16:29:33.000Z</published>
+    <updated>2024-01-20T17:37:27.699Z</updated>
+    
+    <content type="html"><![CDATA[<div class="note bug red"><p>随便写的，仅供参考</p></div><p>对数学建模文章怎么写的初步认知。</p><div class="story post-story"><h2 id="建模文章结构"><a href="#建模文章结构" class="headerlink" title="建模文章结构"></a>建模文章结构</h2><ul><li>摘要</li><li>问题重述</li><li>问题分析</li><li>基本假设与符号说明</li><li>数据预处理</li><li>各题的模型建立与求解</li><li>模型评价</li><li>参考文献</li><li>附录</div><div class="story post-story"><h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2>总结题目信息，针对各题提出各自的解决方向，然后大致描述建模过程，提出结论。<h2 id="问题重述"><a href="#问题重述" class="headerlink" title="问题重述"></a>问题重述</h2></li></ul><ol><li>先提出问题的背景，题目里的用话改一改，少复制粘贴，各种已知信息、已知条件等能确定的信息</li><li>然后写目标任务，就是各题目，重新叙述一遍问题，不要复制粘贴，改写略写都可以<br><a href="https://zhuanlan.zhihu.com/p/352060314">范例</a></div><div class="story post-story"><h2 id="问题分析"><a href="#问题分析" class="headerlink" title="问题分析"></a>问题分析</h2></li><li>先写一个总体的分析</li><li>然后根据各题要求去写各自的，问题要求什么-你怎么做-结论</div><div class="story post-story"><h2 id="基本假设与符号说明"><a href="#基本假设与符号说明" class="headerlink" title="基本假设与符号说明"></a>基本假设与符号说明</h2></li></ol><blockquote><p><a href="https://zhuanlan.zhihu.com/p/352063585">来源</a></p><p>• 模型假设的意义（引自《大学生数学建模竞赛指南》肖华勇）<br>1.针对问题的主要因素，忽略次要因素；<br>2.使我们要解决的问题简化，使模型更合理化；<br>3.模型假设的重要性——关系建模的成败与优劣<br>•写作注意事项（《数学建模与竞赛指导》胡红亮，赵芳玲主编）<br>1.假设要用严格、确切的语言来表达，不能产生歧义使人误解；<br>2.所提出的假设是建立模型所必需的，是为了简化模型。不要写无关的假设，最终的结果与结果之间有很强的因果关系否则会扰乱读者的思考；<br>3.假设应该验证其合理性；<br>①从问题的性质出发作出合乎常识的假设；<br>②由观察所给数据的图像，得到变量的函数形式；<br>③通过参考文献资料类推获得，应指出参考文献相关内容；</p></blockquote><ul><li>符号说明就是什么符号代表什么意思</div><div class="story post-story"><h2 id="数据预处理"><a href="#数据预处理" class="headerlink" title="数据预处理"></a>数据预处理</h2>对给出的数据进行分析，检查有没有坏、脏数据，可以根据题目丢掉一些数据，或者对数据进行各种分析<h2 id="各题模型建立与求解"><a href="#各题模型建立与求解" class="headerlink" title="各题模型建立与求解"></a>各题模型建立与求解</h2></li></ul><ol><li>模型分析的思路，可以带图</li><li>建模前的准备，要算什么特征值之类的，带公式带图</li><li>建模，根据题目建模，分步骤，给模型图片图表和公式</li><li>根据模型求解作答，带图表</li></ol><ul><li>最好给公式标上序号</div><div class="story post-story"><h2 id="模型评价"><a href="#模型评价" class="headerlink" title="模型评价"></a>模型评价</h2>模型的优缺点和改进方向<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2>按照格式写<h2 id="附录"><a href="#附录" class="headerlink" title="附录"></a>附录</h2>正文没写全的表格数据内容，公式推导过程，没出现的全的图片，还有用到的代码等等。</li></ul></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div class=&quot;note bug red&quot;&gt;&lt;p&gt;随便写的，仅供参考&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;对数学建模文章怎么写的初步认知。&lt;/p&gt;
+&lt;div class=&quot;story post-story&quot;&gt;&lt;h2 id=&quot;建模文章结构&quot;&gt;&lt;a href=&quot;#建模文章结构&quot; cla</summary>
+      
+    
+    
+    
+    <category term="数学建模" scheme="http://gug.thisis.host/categories/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/"/>
+    
+    
+    <category term="数学建模" scheme="http://gug.thisis.host/tags/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Spacedesk串流指南</title>
+    <link href="http://gug.thisis.host/2023/12/13/Spacedesk%E4%B8%B2%E6%B5%81%E6%8C%87%E5%8D%97/"/>
+    <id>http://gug.thisis.host/2023/12/13/Spacedesk%E4%B8%B2%E6%B5%81%E6%8C%87%E5%8D%97/</id>
+    <published>2023-12-13T14:57:08.000Z</published>
+    <updated>2024-01-20T17:27:48.835Z</updated>
+    
+    <content type="html"><![CDATA[<div class="story post-story"><h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>本人升入大学之后想在宿舍床上躺着的推gal，不想下床坐在电脑前，也曾经考虑过使用krkr等模拟器，但并不是所有gal都可以移植到这些模拟器上的（比如天使纷扰刚发售之时一度陷入了无法移植的难题，虽然后面解决了），于是我把目光放在了Spacedesk这个软件上，Spacedesk可以通过网络把屏幕复制&#x2F;拓展给其它设备，甚至支持iOS和浏览器访问。</p></div><div class="story post-story"><h2 id="软件下载安装"><a href="#软件下载安装" class="headerlink" title="软件下载安装"></a>软件下载安装</h2><p>访问<a href="https://www.spacedesk.net/zh/">软件官网</a>下载安装主PC的服务端（仅Windows），目前最低支持版本为win8.1；主设备的服务端安装完成保持后台活动即可。<br>另外第二设备也需要安装客户端或支持HTML5的浏览器，支持Windows&#x2F;Android&#x2F;iOS&#x2F;Web。</p></div><div class="story post-story"><h2 id="有线连接"><a href="#有线连接" class="headerlink" title="有线连接"></a>有线连接</h2><p>如果你的第二设备支持USB3.0等高速传输协议，那么建议走有线传输，譬如你的手机或平板有USB3.0，你可以购买一根2m长的USB3.0数据线从电脑拉到你的床上去，在设备的热点设置中开启“USB共享网络”，让第二设备与主设备处于同一局域网中，就可以在第二设备的客户端处看到你的主设备了（浏览器请访问 viewer.spacedesk.net 输入主设备内网IP进行连接）。</p></div><div class="story post-story"><h2 id="无线连接"><a href="#无线连接" class="headerlink" title="无线连接"></a>无线连接</h2><p>使用无线网络进行串流，这时你需要观察：宿舍的路由器的带宽是否为千兆或以上，如果是的话，你可以使用这个路由器的5GHz信号进行串流，即双方设备均连接5GHz信号；<br>如果不幸的发现宿舍是百兆路由器，那么你还可以去第二设备的无线热点设置里看看是否可以切换为5GHz频段，如果可以的话可以让主设备连接第二设备的热点进行串流；如果还是没有，那我还是建议你降低画质或走有线，因为百兆路由器或者一般手机热点的带宽有时不足以支撑高清晰度的串流数据，会产生卡顿、割裂等情况发生（不过也不是不能用）。</p></div><div class="story post-story"><h2 id="客户端配置"><a href="#客户端配置" class="headerlink" title="客户端配置"></a>客户端配置</h2><p>在Setting-Quality&#x2F;Performance中可以调整串流品质和表现，网络条件允许建议全部拉满。<br>Audio中可以开启是否将主设备的声音转到第二设备上，开启后在主设备声音输出选项中选择spacedesk virtual Speaker即可。<br>其余设置无关紧要，可自行研究。</p></div><div class="story post-story"><h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><p>1.当两台设备同时处于多个网络环境下，客户端也会出现多个IP供选择（比如同时处于宿舍无线网和USB网络共享的情况下），如果判断不了哪个是哪个，打开服务端控制台，在Network Adapters中查看不同网络中主设备对应的IP即可。<br>2.使用有线连接时会有概率让主设备重新启动（原因不明，也不知道是否为设备差异原因）<br>3.台式用户在显示器投影设置中选择“复制”，然后直接关闭显示器即可<br>4.笔记本用户同上，不过记得半开合自己的屏幕，拿一卷卫生纸或笔袋夹在中间即可。</p></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div class=&quot;story post-story&quot;&gt;&lt;h2 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h2&gt;&lt;p&gt;本人升入大学之后想在宿舍床上躺着的推gal，不想下床坐在电脑前，</summary>
+      
+    
+    
+    
+    <category term="经验分享" scheme="http://gug.thisis.host/categories/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/"/>
+    
+    <category term="串流" scheme="http://gug.thisis.host/categories/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/%E4%B8%B2%E6%B5%81/"/>
+    
+    
+    <category term="串流" scheme="http://gug.thisis.host/tags/%E4%B8%B2%E6%B5%81/"/>
+    
+    <category term="Spacedesk" scheme="http://gug.thisis.host/tags/Spacedesk/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>BuildCraft六联原油精炼厂</title>
+    <link href="http://gug.thisis.host/2022/06/29/BuildCraft%E5%85%AD%E8%81%94%E6%B2%B9%E7%B2%BE%E7%82%BC%E5%8E%82%E7%9A%84%E4%B8%80%E7%A7%8D%E8%AE%BE%E8%AE%A1/"/>
+    <id>http://gug.thisis.host/2022/06/29/BuildCraft%E5%85%AD%E8%81%94%E6%B2%B9%E7%B2%BE%E7%82%BC%E5%8E%82%E7%9A%84%E4%B8%80%E7%A7%8D%E8%AE%BE%E8%AE%A1/</id>
+    <published>2022-06-29T13:47:30.000Z</published>
+    <updated>2023-12-13T16:57:06.789Z</updated>
+    
+    <content type="html"><![CDATA[<div class="note bug red"><p>以下内容为测试文章，临时写的，内容有漏洞</p></div><div class="story post-story"><h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>BC这个模组我在2016年左右通过别人的实况进行了初次了解，当时我就想玩一玩这个模组，但受制于管制以及设备限制，一直拖到了今年（2022年）我才真真正正的开始玩<del>现在设备仍然是个限制</del>，自己上手后发现，这个mod虽然年代久远，但是操作逻辑十分清晰，可玩性很强，相应的机器设计也是个<del>令人头大的</del>难题。<br>在bc生存的中后期没有燃油是万万不能的，燃油在bc中通过精炼厂精炼原油获得，燃油不是一个精炼厂就能搞定的，它需要能量，需要原油，需要提取；供能的引擎需要燃油，需要散热；精炼厂的精炼速率很低，需要多个并联….如何整合这一切为一台机器便成为了一个问题，于是乎，这篇文章就此诞生了。</p></div><div class="story post-story"><h2 id="游戏版本"><a href="#游戏版本" class="headerlink" title="游戏版本"></a>游戏版本</h2><p>MC：1.7.10<br>Buildcraft：7.1.23</p></div><div class="story post-story"><h2 id="器材准备"><a href="#器材准备" class="headerlink" title="器材准备"></a>器材准备</h2><p>木质流体管道X6，石头流体管道若干（运输液体用，其它材质也可），铁质流体管道X1，红石引擎X15，燃油引擎X12，精炼厂X6，液泵X3，红石粉若干，拉杆若干，实心方块若干。</p></div><div class="story post-story"><h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><p><strong>不太建议在沙漠中进行原油精炼，沙漠群系温度较高，燃油引擎用水量剧增，本设计中的冷却系统给水量可能跟不上耗水量，需要额外增加液泵。</strong></p></div><div class="story post-story"><h2 id="精炼厂与燃油提取"><a href="#精炼厂与燃油提取" class="headerlink" title="精炼厂与燃油提取"></a>精炼厂与燃油提取</h2><p>首先选中一块地方，在地上放置六个红石引擎，摆放位置如图<br><a href="https://www.helloimg.com/image/ZMqGQT"><img src="https://www.helloimg.com/images/2022/06/29/ZMqGQT.png" class="lazyload" data-srcset="https://www.helloimg.com/images/2022/06/29/ZMqGQT.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="ZMqGQT.png"></a><br>使用红石粉连接，并放置拉杆<br><a href="https://www.helloimg.com/image/ZMqoJK"><img src="https://www.helloimg.com/images/2022/06/29/ZMqoJK.png" class="lazyload" data-srcset="https://www.helloimg.com/images/2022/06/29/ZMqoJK.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="ZMqoJK.png"></a><br>在引擎上放置木质流体管道，然后在木质管道左右两侧放置石头流体管道<br><a href="https://www.helloimg.com/image/ZMq3MS"><img src="https://www.helloimg.com/images/2022/06/29/ZMq3MS.png" class="lazyload" data-srcset="https://www.helloimg.com/images/2022/06/29/ZMq3MS.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="ZMq3MS.png"></a><br>接着在木质管道上放置精炼厂，石头管道上放置燃油引擎<br><a href="https://www.helloimg.com/image/ZMqqZQ"><img src="https://www.helloimg.com/images/2022/06/29/ZMqqZQ.png" class="lazyload" data-srcset="https://www.helloimg.com/images/2022/06/29/ZMqqZQ.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="ZMqqZQ.png"></a><br>这里就可以看出目的了：红石引擎为木质管道提取精炼厂内的燃油供能，石头管道则将燃油分配一部分到燃油引擎内为精炼厂供能</p></div><div class="story post-story"><h2 id="燃油引擎冷却系统"><a href="#燃油引擎冷却系统" class="headerlink" title="燃油引擎冷却系统"></a>燃油引擎冷却系统</h2><p>使用石头流体管道将中间6个引擎连接在一起，管道布置如图所示<br><a href="https://www.helloimg.com/image/ZMqJyv"><img src="https://www.helloimg.com/images/2022/06/29/ZMqJyv.png" class="lazyload" data-srcset="https://www.helloimg.com/images/2022/06/29/ZMqJyv.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="ZMqJyv.png"></a><br>当然，这样布置管道并不能做到平均分配水（本来管道在分岔口也是大概均分），可以做到基本均分，但没必要，但是一来有点麻烦，二来破坏美观。</p><p>延伸出去，到海面上，放置一个液泵和四个红石引擎来泵水，四个红石引擎所供的能量可以让液泵每秒抽取500MB的水，<br><a href="https://www.helloimg.com/image/ZMqlpn"><img src="https://www.helloimg.com/images/2022/06/29/ZMqlpn.png" class="lazyload" data-srcset="https://www.helloimg.com/images/2022/06/29/ZMqlpn.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="ZMqlpn.png"></a><br>另外6个燃油引擎我们选择使用另外一个液泵来供水，一个液泵连12个引擎供水量跟不上耗水量，如图布置管道<br><a href="https://www.helloimg.com/image/ZMqv8h"><img src="https://www.helloimg.com/images/2022/06/29/ZMqv8h.png" class="lazyload" data-srcset="https://www.helloimg.com/images/2022/06/29/ZMqv8h.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="ZMqv8h.png"></a><br><a href="https://www.helloimg.com/image/ZMq9Y5"><img src="https://www.helloimg.com/images/2022/06/29/ZMq9Y5.png" class="lazyload" data-srcset="https://www.helloimg.com/images/2022/06/29/ZMq9Y5.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="ZMq9Y5.png"></a></p></div><div class="story post-story"><h2 id="燃油收集与运输"><a href="#燃油收集与运输" class="headerlink" title="燃油收集与运输"></a>燃油收集与运输</h2><p>把精炼厂下面几个木质管道通过石头管道连接起来<br><a href="https://www.helloimg.com/image/ZMqQpr"><img src="https://www.helloimg.com/images/2022/06/29/ZMqQpr.png" class="lazyload" data-srcset="https://www.helloimg.com/images/2022/06/29/ZMqQpr.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="ZMqQpr.png"></a><br>选择适宜的部位将两管会和，会和时使用铁质管道与扳手调整汇流方向<br><a href="https://www.helloimg.com/image/ZMqz5T"><img src="https://www.helloimg.com/images/2022/06/29/ZMqz5T.png" class="lazyload" data-srcset="https://www.helloimg.com/images/2022/06/29/ZMqz5T.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="ZMqz5T.png"></a><br>然后使用管道连接储罐或者运输到远处</p></div><div class="story post-story"><h2 id="原油供给"><a href="#原油供给" class="headerlink" title="原油供给"></a>原油供给</h2><p>原油泉正上方放置液泵与一个红石引擎，不要放多个引擎，就这一个以及完全够6个精炼厂吃的了（甚至还多了）<br><a href="https://www.helloimg.com/image/ZMq7s1"><img src="https://www.helloimg.com/images/2022/06/29/ZMq7s1.png" class="lazyload" data-srcset="https://www.helloimg.com/images/2022/06/29/ZMq7s1.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="ZMq7s1.png"></a><br>然后将精炼厂与抽取原油的液泵相连，原油供给完成<br><a href="https://www.helloimg.com/image/ZMqIYb"><img src="https://www.helloimg.com/images/2022/06/29/ZMqIYb.png" class="lazyload" data-srcset="https://www.helloimg.com/images/2022/06/29/ZMqIYb.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="ZMqIYb.png"></a><br><a href="https://www.helloimg.com/image/ZMqDdK"><img src="https://www.helloimg.com/images/2022/06/29/ZMqDdK.png" class="lazyload" data-srcset="https://www.helloimg.com/images/2022/06/29/ZMqDdK.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="ZMqDdK.png"></a></p></div><div class="story post-story"><h2 id="燃油引擎开关"><a href="#燃油引擎开关" class="headerlink" title="燃油引擎开关"></a>燃油引擎开关</h2><p>在所有燃油引擎上放置一个实心方块，呈M型连接，如图所示<br><a href="https://www.helloimg.com/image/ZMxoz6"><img src="https://www.helloimg.com/images/2022/06/29/ZMxoz6.png" class="lazyload" data-srcset="https://www.helloimg.com/images/2022/06/29/ZMxoz6.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="ZMxoz6.png"></a><br>在所有放置的实心方块上撒上红石粉，将拉杆放在如图所示的中间位置，这样一个拉杆就可以控制所有燃油引擎了<br><a href="https://www.helloimg.com/image/ZMxZnP"><img src="https://www.helloimg.com/images/2022/06/29/ZMxZnP.png" class="lazyload" data-srcset="https://www.helloimg.com/images/2022/06/29/ZMxZnP.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="ZMxZnP.png"></a></p></div><div class="story post-story"><h2 id="启动前与初次启动事项"><a href="#启动前与初次启动事项" class="headerlink" title="启动前与初次启动事项"></a>启动前与初次启动事项</h2><p><strong>先启动抽水的液泵，并等待所有引擎全部注满冷却水后在执行下一步操作</strong><br>在引擎注水这段时间里，我建议先去准备至少12桶原油，一个燃油引擎一桶注入其中，这是初次启动的方法，初次启动前你没有燃油可以用，那就先注入一桶原油，待其燃烧殆尽后，已经提炼出了燃油，管道会将提炼出的燃油注入其中的。<br>初次启动后，引擎会先烧原油，此时精炼出的燃油无法注入，待原油耗尽后，燃油会注入其中，之后请多看看各个引擎的工作状态，是否缺水，是否缺油，一般刚刚启动容易缺油，这时将收集来的燃油装入桶中，当某个引擎缺油停止工作时，注入几桶，让他供给能量给精炼厂，否则恶性循环，燃油无法自给。</p></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div class=&quot;note bug red&quot;&gt;&lt;p&gt;以下内容为测试文章，临时写的，内容有漏洞&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&quot;story post-story&quot;&gt;&lt;h2 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; t</summary>
+      
+    
+    
+    
+    <category term="Minecraft" scheme="http://gug.thisis.host/categories/Minecraft/"/>
+    
+    <category term="教程" scheme="http://gug.thisis.host/categories/Minecraft/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="mod" scheme="http://gug.thisis.host/categories/Minecraft/%E6%95%99%E7%A8%8B/mod/"/>
+    
+    
+    <category term="Minecraft" scheme="http://gug.thisis.host/tags/Minecraft/"/>
+    
+    <category term="Buildcraft" scheme="http://gug.thisis.host/tags/Buildcraft/"/>
+    
+    <category term="mod" scheme="http://gug.thisis.host/tags/mod/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>帮助</title>
+    <link href="http://gug.thisis.host/2022/06/28/help/index/"/>
+    <id>http://gug.thisis.host/2022/06/28/help/index/</id>
+    <published>2022-06-28T15:08:51.000Z</published>
+    <updated>2024-01-03T16:20:06.196Z</updated>
+    
+    <content type="html"><![CDATA[<div class="note"><p>此文章将解答你关于本博客的一些疑问</p></div><p>特别鸣谢：Zhilu提供的域名解析服务<br><a href="https://app.netlify.com/sites/gugblog/deploys"><img src="https://api.netlify.com/api/v1/badges/e981f3f2-972c-4607-9005-0388598e5f24/deploy-status" class="lazyload" data-srcset="https://api.netlify.com/api/v1/badges/e981f3f2-972c-4607-9005-0388598e5f24/deploy-status" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Netlify Status"></a>              <a style="text-decoration:none;color:#e77c8e;" href="https://travel.moe/go.html" title="异次元之旅-跃迁-我们一起去萌站成员的星球旅行吧！" target="_blank"><img src="https://travel.moe/images/icon/icon64pink.png" class="lazyload" data-srcset="https://travel.moe/images/icon/icon64pink.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" style="width:24px;height:24px">异次元之旅</a></p><div class="story post-story"><h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><p>Q:好卡啊<br>A:可以关闭左下角的live2D看板娘以减少资源消耗</p><p>Q:博客托管在哪？<br>A:<a href="https://www.netlify.com/">Netlify</a></p><p>Q:用的什么图床？<br>A:<a href="https://www.helloimg.com/">Helloimg图床</a></p><p>Q:live2D小人哪来的？<br>A:<a href="https://github.com/stevenjoezhang/live2d-widget">Github仓库地址</a></p><p>Q:live2D小人第二个飞机按钮干什么用的？一点出现个三角形？<br>A:那是一个小游戏，三角形是飞机，按下空格后顶部可以发射出子弹，按下字母B按键显示可以被子弹打到的元素，元素被子弹打到后会消失，并且右下角计分板会加分，按下方向上键来向前走，方向左右键来换飞机方向，<a href="http://www.websiteasteroids.com/">这里是这个项目的官网。</a></p><p>Q:如何联系古怪？<br>A:<a href="mailto:&#107;&#97;&#x67;&#117;&#121;&#97;&#x73;&#x61;&#x6d;&#97;&#x40;&#x79;&#x65;&#x61;&#104;&#46;&#x6e;&#x65;&#x74;">&#107;&#97;&#x67;&#117;&#121;&#97;&#x73;&#x61;&#x6d;&#97;&#x40;&#x79;&#x65;&#x61;&#104;&#46;&#x6e;&#x65;&#x74;</a></p></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div class=&quot;note&quot;&gt;&lt;p&gt;此文章将解答你关于本博客的一些疑问&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;特别鸣谢：Zhilu提供的域名解析服务&lt;br&gt;&lt;a href=&quot;https://app.netlify.com/sites/gugblog/deploys&quot;&gt;&lt;img src=</summary>
+      
+    
+    
+    
+    <category term="特殊页面" scheme="http://gug.thisis.host/categories/%E7%89%B9%E6%AE%8A%E9%A1%B5%E9%9D%A2/"/>
+    
+    
+    <category term="帮助" scheme="http://gug.thisis.host/tags/%E5%B8%AE%E5%8A%A9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>古怪的追剧列表</title>
+    <link href="http://gug.thisis.host/2022/05/22/%E5%8F%A4%E6%80%AA%E7%9A%84%E8%BF%BD%E5%89%A7%E5%88%97%E8%A1%A8/"/>
+    <id>http://gug.thisis.host/2022/05/22/%E5%8F%A4%E6%80%AA%E7%9A%84%E8%BF%BD%E5%89%A7%E5%88%97%E8%A1%A8/</id>
+    <published>2022-05-22T02:57:38.000Z</published>
+    <updated>2022-05-22T02:57:38.594Z</updated>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+      
+      
+    <summary type="html">
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>古怪的追番列表</title>
+    <link href="http://gug.thisis.host/2022/05/22/%E5%8F%A4%E6%80%AA%E7%9A%84%E8%BF%BD%E7%95%AA%E5%88%97%E8%A1%A8/"/>
+    <id>http://gug.thisis.host/2022/05/22/%E5%8F%A4%E6%80%AA%E7%9A%84%E8%BF%BD%E7%95%AA%E5%88%97%E8%A1%A8/</id>
+    <published>2022-05-22T02:29:36.000Z</published>
+    <updated>2022-05-22T02:31:56.956Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>这里是古怪的追番列表</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;这里是古怪的追番列表&lt;/strong&gt;&lt;/p&gt;
+
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
