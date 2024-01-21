@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>古怪杂学笔记本</title>
+  <title>古怪杂记本</title>
   
   
   <link href="http://gug.thisis.host/atom.xml" rel="self"/>
@@ -72,7 +72,7 @@
     <link href="http://gug.thisis.host/2023/12/13/Spacedesk-streaming-guide/"/>
     <id>http://gug.thisis.host/2023/12/13/Spacedesk-streaming-guide/</id>
     <published>2023-12-13T14:57:08.000Z</published>
-    <updated>2024-01-20T17:27:48.835Z</updated>
+    <updated>2024-01-21T05:51:03.678Z</updated>
     
     <content type="html"><![CDATA[<div class="story post-story"><h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>本人升入大学之后想在宿舍床上躺着的推gal，不想下床坐在电脑前，也曾经考虑过使用krkr等模拟器，但并不是所有gal都可以移植到这些模拟器上的（比如天使纷扰刚发售之时一度陷入了无法移植的难题，虽然后面解决了），于是我把目光放在了Spacedesk这个软件上，Spacedesk可以通过网络把屏幕复制&#x2F;拓展给其它设备，甚至支持iOS和浏览器访问。</p></div><div class="story post-story"><h2 id="软件下载安装"><a href="#软件下载安装" class="headerlink" title="软件下载安装"></a>软件下载安装</h2><p>访问<a href="https://www.spacedesk.net/zh/">软件官网</a>下载安装主PC的服务端（仅Windows），目前最低支持版本为win8.1；主设备的服务端安装完成保持后台活动即可。<br>另外第二设备也需要安装客户端或支持HTML5的浏览器，支持Windows&#x2F;Android&#x2F;iOS&#x2F;Web。</p></div><div class="story post-story"><h2 id="有线连接"><a href="#有线连接" class="headerlink" title="有线连接"></a>有线连接</h2><p>如果你的第二设备支持USB3.0等高速传输协议，那么建议走有线传输，譬如你的手机或平板有USB3.0，你可以购买一根2m长的USB3.0数据线从电脑拉到你的床上去，在设备的热点设置中开启“USB共享网络”，让第二设备与主设备处于同一局域网中，就可以在第二设备的客户端处看到你的主设备了（浏览器请访问 viewer.spacedesk.net 输入主设备内网IP进行连接）。</p></div><div class="story post-story"><h2 id="无线连接"><a href="#无线连接" class="headerlink" title="无线连接"></a>无线连接</h2><p>使用无线网络进行串流，这时你需要观察：宿舍的路由器的带宽是否为千兆或以上，如果是的话，你可以使用这个路由器的5GHz信号进行串流，即双方设备均连接5GHz信号；<br>如果不幸的发现宿舍是百兆路由器，那么你还可以去第二设备的无线热点设置里看看是否可以切换为5GHz频段，如果可以的话可以让主设备连接第二设备的热点进行串流；如果还是没有，那我还是建议你降低画质或走有线，因为百兆路由器或者一般手机热点的带宽有时不足以支撑高清晰度的串流数据，会产生卡顿、割裂等情况发生（不过也不是不能用）。</p></div><div class="story post-story"><h2 id="客户端配置"><a href="#客户端配置" class="headerlink" title="客户端配置"></a>客户端配置</h2><p>在Setting-Quality&#x2F;Performance中可以调整串流品质和表现，网络条件允许建议全部拉满。<br>Audio中可以开启是否将主设备的声音转到第二设备上，开启后在主设备声音输出选项中选择spacedesk virtual Speaker即可。<br>其余设置无关紧要，可自行研究。</p></div><div class="story post-story"><h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><p>1.当两台设备同时处于多个网络环境下，客户端也会出现多个IP供选择（比如同时处于宿舍无线网和USB网络共享的情况下），如果判断不了哪个是哪个，打开服务端控制台，在Network Adapters中查看不同网络中主设备对应的IP即可。<br>2.使用有线连接时会有概率让主设备重新启动（原因不明，也不知道是否为设备差异原因）<br>3.台式用户在显示器投影设置中选择“复制”，然后直接关闭显示器即可<br>4.笔记本用户同上，不过记得半开合自己的屏幕，拿一卷卫生纸或笔袋夹在中间即可。</p></div>]]></content>
     
@@ -85,8 +85,6 @@
     
     
     <category term="经验分享" scheme="http://gug.thisis.host/categories/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/"/>
-    
-    <category term="串流" scheme="http://gug.thisis.host/categories/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/%E4%B8%B2%E6%B5%81/"/>
     
     
     <category term="串流" scheme="http://gug.thisis.host/tags/%E4%B8%B2%E6%B5%81/"/>
@@ -131,7 +129,7 @@
     <published>2022-06-28T15:08:51.000Z</published>
     <updated>2024-01-21T05:48:22.381Z</updated>
     
-    <content type="html"><![CDATA[<div class="note"><p>此文章将解答你关于本博客的一些疑问</p></div><p>特别鸣谢：Zhilu提供的域名解析服务<br><a href="https://app.netlify.com/sites/gugblog/deploys"><img src="https://api.netlify.com/api/v1/badges/e981f3f2-972c-4607-9005-0388598e5f24/deploy-status" class="lazyload" data-srcset="https://api.netlify.com/api/v1/badges/e981f3f2-972c-4607-9005-0388598e5f24/deploy-status" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Netlify Status"></a>              <a style="text-decoration:none;color:#e77c8e;" href="https://travel.moe/go.html" title="异次元之旅-跃迁-我们一起去萌站成员的星球旅行吧！" target="_blank"><img src="https://travel.moe/images/icon/icon64pink.png" class="lazyload" data-srcset="https://travel.moe/images/icon/icon64pink.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" style="width:24px;height:24px">异次元之旅</a></p><div class="story post-story"><h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><p>Q:好卡啊<br>A:可以关闭左下角的live2D看板娘以减少资源消耗</p><p>Q:博客托管在哪？<br>A:<a href="https://www.netlify.com/">Netlify</a></p><p>Q:用的什么图床？<br>A:<a href="https://www.helloimg.com/">Helloimg图床</a></p><p>Q:live2D小人哪来的？<br>A:<a href="https://github.com/stevenjoezhang/live2d-widget">Github仓库地址</a></p><p>Q:live2D小人第二个飞机按钮干什么用的？一点出现个三角形？<br>A:那是一个小游戏，三角形是飞机，按下空格后顶部可以发射出子弹，按下字母B按键显示可以被子弹打到的元素，元素被子弹打到后会消失，并且右下角计分板会加分，按下方向上键来向前走，方向左右键来换飞机方向，<a href="http://www.websiteasteroids.com/">这里是这个项目的官网。</a></p><p>Q:如何联系古怪？<br>A:<a href="mailto:&#x6b;&#x61;&#103;&#x75;&#121;&#97;&#x73;&#97;&#109;&#x61;&#64;&#121;&#101;&#97;&#104;&#x2e;&#110;&#x65;&#x74;">&#x6b;&#x61;&#103;&#x75;&#121;&#97;&#x73;&#97;&#109;&#x61;&#64;&#121;&#101;&#97;&#104;&#x2e;&#110;&#x65;&#x74;</a></p></div>]]></content>
+    <content type="html"><![CDATA[<div class="note"><p>此文章将解答你关于本博客的一些疑问</p></div><p>特别鸣谢：Zhilu提供的域名解析服务<br><a href="https://app.netlify.com/sites/gugblog/deploys"><img src="https://api.netlify.com/api/v1/badges/e981f3f2-972c-4607-9005-0388598e5f24/deploy-status" class="lazyload" data-srcset="https://api.netlify.com/api/v1/badges/e981f3f2-972c-4607-9005-0388598e5f24/deploy-status" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Netlify Status"></a>              <a style="text-decoration:none;color:#e77c8e;" href="https://travel.moe/go.html" title="异次元之旅-跃迁-我们一起去萌站成员的星球旅行吧！" target="_blank"><img src="https://travel.moe/images/icon/icon64pink.png" class="lazyload" data-srcset="https://travel.moe/images/icon/icon64pink.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" style="width:24px;height:24px">异次元之旅</a></p><div class="story post-story"><h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><p>Q:好卡啊<br>A:可以关闭左下角的live2D看板娘以减少资源消耗</p><p>Q:博客托管在哪？<br>A:<a href="https://www.netlify.com/">Netlify</a></p><p>Q:用的什么图床？<br>A:<a href="https://www.helloimg.com/">Helloimg图床</a></p><p>Q:live2D小人哪来的？<br>A:<a href="https://github.com/stevenjoezhang/live2d-widget">Github仓库地址</a></p><p>Q:live2D小人第二个飞机按钮干什么用的？一点出现个三角形？<br>A:那是一个小游戏，三角形是飞机，按下空格后顶部可以发射出子弹，按下字母B按键显示可以被子弹打到的元素，元素被子弹打到后会消失，并且右下角计分板会加分，按下方向上键来向前走，方向左右键来换飞机方向，<a href="http://www.websiteasteroids.com/">这里是这个项目的官网。</a></p><p>Q:如何联系古怪？<br>A:<a href="mailto:&#x6b;&#97;&#x67;&#x75;&#x79;&#97;&#x73;&#x61;&#109;&#97;&#64;&#x79;&#101;&#x61;&#104;&#46;&#110;&#101;&#x74;">&#x6b;&#97;&#x67;&#x75;&#x79;&#97;&#x73;&#x61;&#109;&#97;&#64;&#x79;&#101;&#x61;&#104;&#46;&#110;&#101;&#x74;</a></p></div>]]></content>
     
     
       
@@ -173,15 +171,14 @@
     <link href="http://gug.thisis.host/2022/05/22/bangumi/"/>
     <id>http://gug.thisis.host/2022/05/22/bangumi/</id>
     <published>2022-05-22T02:29:36.000Z</published>
-    <updated>2022-05-22T02:31:56.956Z</updated>
+    <updated>2024-01-21T05:53:34.212Z</updated>
     
-    <content type="html"><![CDATA[<p><strong>这里是古怪的追番列表</strong></p>]]></content>
+    <content type="html"><![CDATA[]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;&lt;strong&gt;这里是古怪的追番列表&lt;/strong&gt;&lt;/p&gt;
-
+    <summary type="html">
 </summary>
       
     
