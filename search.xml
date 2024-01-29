@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>MATLAB-笔记1</title>
+      <link href="/2024/01/29/MATLAB-note1/"/>
+      <url>/2024/01/29/MATLAB-note1/</url>
+      
+        <content type="html"><![CDATA[<div class="note warning"><p>以下内容仅为笔记，仅供参考复习</p></div><div class="note link green"><p><a href="https://www.bilibili.com/video/BV1Az41187mi?p=1&vd_source=0ba530b3a9600f6e711ed9a290af87e0">对应课程地址</a></p></div><div class="story post-story"><h2 id="控制台"><a href="#控制台" class="headerlink" title="控制台"></a>控制台</h2><ul><li>；抑制输出，运行但不输出</li><li>clc清空输出，clear彻底清空，clear加变成名称可以指定清除某变量（可跟多个）</li><li>输入脚本名，matlab会自动查找工作目录以及上级目录下是否有对应脚本，工作目录有则运行，上级目录有则提示是否更改目录。</li><li>大小写敏感</li><li>变量名称仅允许以字母开头，，后面可以使用字母数字特殊符号，最大长度63字符</li><li>使用who查看所有变量名称，whose查看详细</li><li>执行format long命令可以在后续输出全部位数的有效数字</li><li>光标位于命令中按F1查看该命令帮助</li><li>在已经有输入内容的时候按方向上只会显示与已有内容有关的</li><li>% 注释符</div><div class="story post-story"><h2 id="数据类型相关"><a href="#数据类型相关" class="headerlink" title="数据类型相关"></a>数据类型相关</h2></li><li>数据类型(变量名) 可以指定数据类型，如：single(sum),int8&#x2F;16&#x2F;32&#x2F;64(sum)等等(uint为不带符号)</li><li>‘Apple’为char类型，”Apple”为string字符串类型</li><li>5&#x2F;2&#x3D;2.5，5\2&#x3D;0.4，2 ^ 3&#x3D;8，3e8&#x3D;3*10 ^ 8 </li><li>format compact命令，紧凑输出；format loose 默认显示空格。</li><li>…结尾当换行符</li><li>运算优先级：() &gt; ^ &gt; -(负号）&gt; * ,&#x2F;,\ &gt; + ,-  ；即括号&gt;幂次&gt;负号&gt;乘除&gt;加减<br><a href="https://ww2.mathworks.cn/help/matlab/matlab_prog/operator-precedence.html">MATLAB帮助中心-运算优先级条目</a></li><li>i 和 j 默认为虚数单位，若被当作变量赋值，在其前面加上常数即可重新被认为是虚数单位，如：2+3 * 1i或1+3i</li><li>inf 和-inf代表无穷大和负无穷大，本质是double</li><li>NaN 表示非数字值，本质double</li><li>logical为逻辑变量类型，0为true，1为false<blockquote><p>3&gt;5会返回逻辑变量1，3&lt;5返回0</p></blockquote></div><div class="story post-story"><h2 id="基本函数"><a href="#基本函数" class="headerlink" title="基本函数"></a>基本函数</h2></li><li>help elfun 基本函数帮助信息，help 函数名 返回对应函数的帮助</li><li>sqrt()开方</li><li>abs()绝对值<h3 id="随机数函数"><a href="#随机数函数" class="headerlink" title="随机数函数"></a>随机数函数</h3></li><li>rand（）直接输出是0-1的伪随机数，后面加* n可以改变随机范围</li><li>randn()生成标准正态分布上的随机数，randi([1 10])，生成1-10上的伪随机整数</li><li>rng（）设置随机数种子， seed为非负整数，如 rng(1)，用该种子初始化随机数生成器，将 seed 指定为 “shuffle”，以根据当前时间初始化生成器种子，即rng(‘shuffle’)<blockquote><p>要生成特定范围的随机数，比如20-35，可以：15* rand()+20</p></blockquote></li></ul></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学建模 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数学建模 </tag>
+            
+            <tag> MATLAB </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>过去一年薅的羊毛</title>
       <link href="/2024/01/22/clip-coupons-2023/"/>
       <url>/2024/01/22/clip-coupons-2023/</url>
@@ -141,7 +168,7 @@
       <link href="/2022/06/28/help/index/"/>
       <url>/2022/06/28/help/index/</url>
       
-        <content type="html"><![CDATA[<div class="note"><p>此文章将解答你关于本博客的一些疑问</p></div><p>特别鸣谢：Zhilu提供的域名解析服务<br><a href="https://app.netlify.com/sites/gugblog/deploys"><img src="https://api.netlify.com/api/v1/badges/e981f3f2-972c-4607-9005-0388598e5f24/deploy-status" class="lazyload" data-srcset="https://api.netlify.com/api/v1/badges/e981f3f2-972c-4607-9005-0388598e5f24/deploy-status" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Netlify Status"></a>              <a style="text-decoration:none;color:#e77c8e;" href="https://travel.moe/go.html" title="异次元之旅-跃迁-我们一起去萌站成员的星球旅行吧！" target="_blank"><img src="https://travel.moe/images/icon/icon64pink.png" class="lazyload" data-srcset="https://travel.moe/images/icon/icon64pink.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" style="width:24px;height:24px">异次元之旅</a></p><div class="story post-story"><h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><p>Q:好卡啊<br>A:可以关闭左下角的live2D看板娘以减少资源消耗</p><p>Q:博客托管在哪？<br>A:<a href="https://www.netlify.com/">Netlify</a></p><p>Q:用的什么图床？<br>A:<a href="https://www.helloimg.com/">Helloimg图床</a></p><p>Q:live2D小人哪来的？<br>A:<a href="https://github.com/stevenjoezhang/live2d-widget">Github仓库地址</a></p><p>Q:live2D小人第二个飞机按钮干什么用的？一点出现个三角形？<br>A:那是一个小游戏，三角形是飞机，按下空格后顶部可以发射出子弹，按下字母B按键显示可以被子弹打到的元素，元素被子弹打到后会消失，并且右下角计分板会加分，按下方向上键来向前走，方向左右键来换飞机方向，<a href="http://www.websiteasteroids.com/">这里是这个项目的官网。</a></p><p>Q:如何联系古怪？<br>A:<a href="mailto:&#x6b;&#x61;&#103;&#117;&#121;&#x61;&#115;&#x61;&#x6d;&#x61;&#64;&#121;&#x65;&#97;&#x68;&#x2e;&#110;&#101;&#x74;">&#x6b;&#x61;&#103;&#117;&#121;&#x61;&#115;&#x61;&#x6d;&#x61;&#64;&#121;&#x65;&#97;&#x68;&#x2e;&#110;&#101;&#x74;</a></p></div>]]></content>
+        <content type="html"><![CDATA[<div class="note"><p>此文章将解答你关于本博客的一些疑问</p></div><p>特别鸣谢：Zhilu提供的域名解析服务<br><a href="https://app.netlify.com/sites/gugblog/deploys"><img src="https://api.netlify.com/api/v1/badges/e981f3f2-972c-4607-9005-0388598e5f24/deploy-status" class="lazyload" data-srcset="https://api.netlify.com/api/v1/badges/e981f3f2-972c-4607-9005-0388598e5f24/deploy-status" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Netlify Status"></a>              <a style="text-decoration:none;color:#e77c8e;" href="https://travel.moe/go.html" title="异次元之旅-跃迁-我们一起去萌站成员的星球旅行吧！" target="_blank"><img src="https://travel.moe/images/icon/icon64pink.png" class="lazyload" data-srcset="https://travel.moe/images/icon/icon64pink.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" style="width:24px;height:24px">异次元之旅</a></p><div class="story post-story"><h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><p>Q:好卡啊<br>A:可以关闭左下角的live2D看板娘以减少资源消耗</p><p>Q:博客托管在哪？<br>A:<a href="https://www.netlify.com/">Netlify</a></p><p>Q:用的什么图床？<br>A:<a href="https://www.helloimg.com/">Helloimg图床</a></p><p>Q:live2D小人哪来的？<br>A:<a href="https://github.com/stevenjoezhang/live2d-widget">Github仓库地址</a></p><p>Q:live2D小人第二个飞机按钮干什么用的？一点出现个三角形？<br>A:那是一个小游戏，三角形是飞机，按下空格后顶部可以发射出子弹，按下字母B按键显示可以被子弹打到的元素，元素被子弹打到后会消失，并且右下角计分板会加分，按下方向上键来向前走，方向左右键来换飞机方向，<a href="http://www.websiteasteroids.com/">这里是这个项目的官网。</a></p><p>Q:如何联系古怪？<br>A:<a href="mailto:&#x6b;&#97;&#103;&#x75;&#121;&#97;&#115;&#x61;&#109;&#x61;&#x40;&#121;&#101;&#97;&#104;&#46;&#x6e;&#x65;&#116;">&#x6b;&#97;&#103;&#x75;&#121;&#97;&#115;&#x61;&#109;&#x61;&#x40;&#121;&#101;&#97;&#104;&#46;&#x6e;&#x65;&#116;</a></p></div>]]></content>
       
       
       
